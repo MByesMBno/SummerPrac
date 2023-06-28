@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Header from './Header.jsx'
 import Logo from './logo.jsx'
 import Vl from './Vl.jsx'
+import Center from './Center.jsx'
 import './index.css'
 
 
