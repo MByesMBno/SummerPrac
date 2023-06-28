@@ -27,6 +27,7 @@ body {
 }
 .header p {
   margin-left: 45px;
+  color: azure;
 }
 .header .navbar li {
   margin-left: 5px;
