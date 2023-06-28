@@ -1,43 +1,81 @@
 
 .idk{
-    width: 200px;
+    width: 405px;
     height: 10%;
     margin-left: 30px;
     display: block;
     position: relative;
     top: -980px;
     a{
-        color: white;
         text-decoration: none;
+        img{
+            width: 250px;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                scale: 1.1;
+            }
+        }
     }
 }
 .header{
-    width: 250px;
+    width: 405px;
     height: 100%;
-    font-size: 18px;
+    font-size: 22px;
     display: block;
     position: relative;
     top: -950px;
     margin: 0;
     p{
-        margin-left: 46px;
-        color: azure;
+        opacity: 0.65;
+        font-size: 24px;
+        margin-left: 45px;
+        color: rgb(255, 255, 255);
     }
     .navbar{
         li{
             margin-left: 5px;
             line-height: 3;
             list-style: none;
+            color: white;
+            opacity: 0.5;
+            transition: all 0.2s ease-in-out;
             a{
+                margin-right: 10px;
                 color: white;
                 opacity: 0.5;
                 text-decoration: none;
-                transition: all 0.3s ease-in-out;
-                &:hover{
-                    color: rgb(55, 255, 232);
+                transition: all 0.2s ease-in-out;
+            }
+        }
+        .Menu{
+            li:hover{
+                    border-right: 5px solid rgb(55, 255, 232);
+                    opacity: 1;
+                    a{
+                        color: rgb(55, 255, 232);
+                        opacity: 1;
+                    }
+            }
+        }
+        .Popular{
+            li:hover{
+                border-right: 5px solid rgb(220, 242, 120);
+                opacity: 1;
+                a{
+                    color: rgb(220, 242, 120);
                     opacity: 1;
                 }
-            }
+        }
+        }
+        .General{
+            li:hover{
+                border-right: 5px solid rgb(128, 0, 255);
+                opacity: 1;
+                a{
+                    color: rgb(128, 0, 255);
+                    opacity: 1;
+                }
+        }
         }
 
     }
@@ -46,6 +84,6 @@
     position: relative;
     right: -400px;
     border-left: 6px solid rgb(0, 0, 0);
-    opacity: 0.2;
+    opacity: 0.1;
     height: 1000px;
 }

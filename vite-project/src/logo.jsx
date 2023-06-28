@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './Header.css'
 
 function Logo() {
@@ -7,7 +6,7 @@ function Logo() {
 
   return (
     <div className="idk">
-        <a href="#">logo</a>
+        <a href="#"><img src="./public/Logotype.png" alt="" /></a>
     </div>
   )
 }
