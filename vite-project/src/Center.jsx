@@ -13,6 +13,9 @@ function Center() {
             <h3>CARTOONS, COMEDY</h3>
             <div className="Button_Afisha">Watch</div>
         </div>
+        <div className="Top__Film">
+            <p>This week's Top films</p>
+        </div>
     </div>
   )
 }

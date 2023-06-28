@@ -56,6 +56,11 @@
   top: -30px;
 }
 .Button_Afisha:hover {
-  background: #cf380b;
   color: azure;
+  background: #d81d1d;
+}
+
+.Top__Film {
+  position: relative;
+  top: -150px;
 }/*# sourceMappingURL=Center.css.map */
