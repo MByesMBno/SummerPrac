@@ -4,6 +4,7 @@ import Header from './Header.jsx'
 import Logo from './logo.jsx'
 import Vl from './Vl.jsx'
 import './index.css'
+import Center from './center.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,5 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Vl />
     <Logo />
     <Header />
+    <Center />
   </React.StrictMode>,
 )
