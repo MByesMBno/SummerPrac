@@ -1,12 +1,61 @@
 .Center1 {
   color: aquamarine;
   position: relative;
-  top: -1290px;
-  left: 600px;
+  top: -1300px;
+  left: 450px;
 }
 
 .Head__Banner {
   background-image: url(../public/afisha_2.png);
-  height: 212px;
-  width: 500px;
+  height: 340px;
+  width: 800px;
+  position: relative;
+  top: 10px;
+}
+
+.Dop__Banner {
+  position: relative;
+  top: -200px;
+  left: 20px;
+}
+
+.Center1 p {
+  color: azure;
+  font-size: 25px;
+  font-family: Dongle;
+  margin: 0;
+  padding: 0;
+}
+
+.Center1 h1 {
+  color: azure;
+  font-family: Dongle;
+  font-size: 55px;
+  margin: 0;
+}
+
+.Center1 h3 {
+  color: azure;
+  font-family: Dongle;
+  font-size: 35px;
+  margin: 0;
+  position: relative;
+  top: -30px;
+}
+
+.Button_Afisha {
+  width: 192px;
+  height: 49px;
+  border-radius: 20px;
+  background: #34FFE8;
+  color: #373737;
+  font-family: Dongle;
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+.Button_Afisha:hover {
+  background: #cf380b;
+  color: azure;
 }/*# sourceMappingURL=Center.css.map */

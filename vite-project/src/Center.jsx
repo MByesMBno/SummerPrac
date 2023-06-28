@@ -6,8 +6,12 @@ function Center() {
 
   return (
     <div className="Center1">
-        <div className="Head__Banner">
-            f
+        <p>Watch movies online every day</p>
+        <p className="Head__Banner"></p>
+        <div className="Dop__Banner">
+            <h1>ENCANTO</h1>
+            <h3>CARTOONS, COMEDY</h3>
+            <div className="Button_Afisha">Watch</div>
         </div>
     </div>
   )
