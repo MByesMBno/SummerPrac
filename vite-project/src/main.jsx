@@ -11,5 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Vl />
     <Logo />
     <Header />
+    <Center />
   </React.StrictMode>,
 )
