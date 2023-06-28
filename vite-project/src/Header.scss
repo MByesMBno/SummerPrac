@@ -48,15 +48,15 @@
             }
         }
         .Menu{
-            li:hover{
+                li:hover{
                     border-right: 5px solid rgb(55, 255, 232);
                     opacity: 1;
                     a{
                         color: rgb(55, 255, 232);
                         opacity: 1;
                     }
+                         }
             }
-        }
         .Popular{
             li:hover{
                 border-right: 5px solid rgb(220, 242, 120);
