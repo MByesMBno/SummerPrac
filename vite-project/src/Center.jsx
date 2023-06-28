@@ -15,6 +15,16 @@ function Center() {
         </div>
         <div className="Top__Film">
             <p>This week's Top films</p>
+            <table>
+                <tr>
+                    <th className='Movies__Class'>
+                        <div className="Map_One"></div>
+                    </th>
+                    <th>
+                        <div className="Map_Two"></div>
+                    </th>
+                </tr>
+            </table>
         </div>
     </div>
   )
