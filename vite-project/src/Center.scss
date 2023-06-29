@@ -4,7 +4,6 @@
     top: -1900px;
     left: 450px;
     margin: 0px;
-    display: inline-block;
 }
 .Margin__Setting{
     margin: 0px;
@@ -76,3 +75,17 @@
         height: 350px;
     }
 }
+
+
+
+.vl2{
+    position: relative;
+    right: -1400px;
+    top: -3000px;
+    border-left: 6px solid rgb(0, 0, 0);
+    opacity: 0.1;
+    width: 4px;
+    height: 1000px;
+    margin: 0;
+}
+

@@ -5,7 +5,7 @@ function Vl2() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>HI</div>
+    <div className="vl2"></div>
   )
 }
 
