@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHome, faCompass, faRotateRight, faFire, faFaceSmile, faChild, faWandSparkles, faUser, faArrowRightFromBracket} from '@fortawesome/free-solid-svg-icons'
 import './Header.css'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
   const [count, setCount] = useState(0)
@@ -11,8 +12,8 @@ function Header() {
       <div className="navbar">
         <p>Menu</p>
         <ul className='Menu'>
-          <li><a href="#"><FontAwesomeIcon icon={faHome}/></a> Home </li>
-          <li><a href="#"><FontAwesomeIcon icon={faCompass}/></a> Discovery </li>
+          <li><NavLink to="/Center"><FontAwesomeIcon icon={faHome}/></NavLink> Home </li>
+          <li><NavLink to="/Vl2"><FontAwesomeIcon icon={faCompass}/></NavLink> Discovery </li>
           <li><a href="#"><FontAwesomeIcon icon={faRotateRight}/></a> Fresh Movies </li>
           <li><a href="#"><FontAwesomeIcon icon={faFire}/></a> Trending Now </li>
         </ul>

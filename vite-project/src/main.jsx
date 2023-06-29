@@ -5,15 +5,21 @@ import Logo from './logo.jsx'
 import Vl from './Vl.jsx'
 import Center from './Center.jsx'
 import Vl2 from './Vl2.jsx'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './index.css'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Vl />
-    <Logo />
-    <Header />
-    <Center />
-    <Vl2 />
+    <BrowserRouter>
+      <Vl/>
+      <Logo />
+      <Header />
+      <Routes>
+        <Route  path='/' element={<Center/>} />
+        <Route  path='*' element={<div>Fuck u</div>} />
+      </Routes>     
+    </BrowserRouter>
   </React.StrictMode>,
 )
