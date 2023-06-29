@@ -25,7 +25,7 @@ function Header() {
         <p>General</p>
         <ul className='General'>
           <li><NavLink to="#"><FontAwesomeIcon icon={faUser}/></NavLink> Profile </li>
-          <li><NavLink to="#"><FontAwesomeIcon icon={faArrowRightFromBracket}/></NavLink> Logout </li>
+          <li className='special'><NavLink to="#"><FontAwesomeIcon icon={faArrowRightFromBracket}/></NavLink> Logout </li>
         </ul>
       </div>
     </div>

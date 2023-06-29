@@ -19,8 +19,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Header />
       <Routes>
         <Route  path='/Fresh' element={<Fresh/>} />
+        <Route  path='/Center' element={<Center/>} />
         <Route  path='/' element={<Center/>} />
-        
       </Routes>     
     </BrowserRouter>
   </React.StrictMode>,

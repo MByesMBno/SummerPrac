@@ -1,19 +1,28 @@
-.wrap {
-  display: flexbox;
-  background-color: rgb(0, 0, 0);
-  width: 50%;
-  margin: auto;
+.Wrap {
   position: absolute;
-  top: 80px;
-  left: 500px;
-}
-.wrap .card {
-  opacity: 0.6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 50%;
+  height: 70%;
+  top: 40px;
+  right: 300px;
   color: white;
+  margin: 0px;
 }
-.wrap .card:hover {
-  opacity: 1;
+.Wrap .card {
+  margin-right: 150px;
+  margin-left: 50px;
+}
+.Wrap .card ul {
+  padding: 0;
+}
+.Wrap .card ul li {
+  list-style: none;
+  margin: 0px;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 14px;
+}
+.Wrap .card img {
+  width: 180px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }/*# sourceMappingURL=Fresh.css.map */

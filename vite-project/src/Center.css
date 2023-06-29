@@ -1,10 +1,10 @@
 .Center1 {
   color: aquamarine;
-  position: relative;
-  top: -1900px;
-  left: 450px;
-  margin: 0px;
-  margin-bottom: -3000px;
+  position: absolute;
+  top: 40px;
+  right: 5px;
+  margin-right: 400px;
+  transition: all 0.3s ease-in-out;
 }
 
 .Margin__Setting {
