@@ -1,8 +1,13 @@
 .Center1{
     color: aquamarine;
     position: relative;
-    top: -1300px;
+    top: -1900px;
     left: 450px;
+    margin: 0px;
+    display: inline-block;
+}
+.Margin__Setting{
+    margin: 0px;
 }
 .Head__Banner{
     background-image: url(../public/afisha_2.png);
@@ -20,8 +25,8 @@
     color: azure;
     font-size: 25px;
     font-family: Dongle;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 .Center1 h1{
     color: azure;
@@ -48,33 +53,26 @@
     text-align: center;
     position: relative;
     top: -30px;
+    transition: all 1s;
+    margin: 0px;
     &:hover{
         color: azure;
         background: #d81d1d;
+        transition: all 1s;
+        width: 212px;
     }
 }
 .Top__Film{
     position: relative;
     top: -150px;
 }
-
-.vl2{
-    position: relative;
-    right: -1200px;
-    border-left: 6px solid rgb(0, 0, 0);
-    opacity: 0.2;
-    height: 1000px;
-}
 .Movies__Class{
-
-}
-.Map_One{
-    height: 300px;
-    width: 200px;
-    background-image: url(../public/OneOne_A.png);
-}
-.Map_Two{
-    height: 300px;
-    width: 200px;
-    background-image: url(../public/Sunnypek_A.png);
+    height: 320px;
+    width: 250px;
+    transition: all 1s;
+    &:hover{
+        filter: blur(2.5px);
+        transition: all 1s;
+        height: 350px;
+    }
 }

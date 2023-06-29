@@ -15,13 +15,40 @@ function Center() {
         </div>
         <div className="Top__Film">
             <p>This week's Top films</p>
-            <table>
-                <tr>
-                    <th className='Movies__Class'>
-                        <div className="Map_One"></div>
+            <table className='Margin__Setting'>
+                <tr className='Margin__Setting'>
+                    <th>
+                        <div className="Movies__Class">
+                            <img src="./public/OneOne_A.png" alt="NONE" />
+                        </div>
                     </th>
                     <th>
-                        <div className="Map_Two"></div>
+                        <div className="Movies__Class">
+                            <img src="./public/Sunnypek_A.png" alt="NONE" />
+                        </div>
+                    </th>
+                    <th>
+                        <div className="Movies__Class">
+                            <img src="./public/Avatar_A.png" alt="NONE" />
+                        </div>
+                    </th>
+                </tr>
+                <p>Cartoons for the whole family</p>
+                <tr>
+                    <th>
+                        <div className="Movies__Class">
+                            <img src="./public/OneOne_A.png" alt="NONE" />
+                        </div>
+                    </th>
+                    <th>
+                        <div className="Movies__Class">
+                            <img src="./public/Sunnypek_A.png" alt="NONE" />
+                        </div>
+                    </th>
+                    <th>
+                        <div className="Movies__Class">
+                            <img src="./public/Avatar_A.png" alt="NONE" />
+                        </div>
                     </th>
                 </tr>
             </table>
