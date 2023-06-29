@@ -7,6 +7,7 @@ import Center from './Center.jsx'
 import Vl2 from './Vl2.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './index.css'
+import Fresh from './Fresh.jsx'
 
 
 
@@ -17,8 +18,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Logo />
       <Header />
       <Routes>
+        <Route  path='/Fresh' element={<Fresh/>} />
         <Route  path='/' element={<Center/>} />
-        <Route  path='*' element={<div>Fuck u</div>} />
+        
       </Routes>     
     </BrowserRouter>
   </React.StrictMode>,

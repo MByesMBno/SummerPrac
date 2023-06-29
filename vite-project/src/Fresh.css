@@ -1,0 +1,19 @@
+.wrap {
+  display: flexbox;
+  background-color: rgb(0, 0, 0);
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 80px;
+  left: 500px;
+}
+.wrap .card {
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.wrap .card:hover {
+  opacity: 1;
+}/*# sourceMappingURL=Fresh.css.map */
