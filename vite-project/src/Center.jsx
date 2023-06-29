@@ -24,7 +24,7 @@ function Center() {
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <img src="./public/Sunnypek_A.png" alt="NONE" />
+                            <img src="Sunnypek_A.png" alt="NONE" />
                         </div>
                     </th>
                     <th>
@@ -37,17 +37,17 @@ function Center() {
                 <tr>
                     <th>
                         <div className="Movies__Class">
-                            <img src="./public/OneOne_A.png" alt="NONE" />
+                            <img src="/Ralf.png" alt="NONE" />
                         </div>
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <img src="./public/Sunnypek_A.png" alt="NONE" />
+                            <img src="Sheep_A.png" alt="NONE" />
                         </div>
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <img src="./public/Avatar_A.png" alt="NONE" />
+                            <img src="Enkanto_A.png" alt="NONE" />
                         </div>
                     </th>
                 </tr>
