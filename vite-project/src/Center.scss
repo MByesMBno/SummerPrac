@@ -54,6 +54,9 @@
     top: -30px;
     transition: all 1s;
     margin: 0px;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
     &:hover{
         color: azure;
         background: #d81d1d;
@@ -76,7 +79,10 @@
     }
 }
 
-
+.Movies__Class2{
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
 .vl2{
     position: relative;
