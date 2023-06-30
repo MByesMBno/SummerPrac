@@ -8,6 +8,7 @@ import Vl2 from './Vl2.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './index.css'
 import Fresh from './Fresh.jsx'
+import Footer from './Components/Footer.jsx'
 
 
 
@@ -21,7 +22,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route  path='/Fresh' element={<Fresh/>} />
         <Route  path='/Center' element={<Center/>} />
         <Route  path='/' element={<Center/>} />
-      </Routes>     
+      </Routes>
+      <Footer/>     
     </BrowserRouter>
   </React.StrictMode>,
 )

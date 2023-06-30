@@ -39,6 +39,17 @@ const Fresh = () => {
                             </ul>
                         </div>
                     </th>
+                    <th>
+                        <div className="card">
+                            <img src="./public/" alt="NONE" />
+                            <ul>
+                                <li>"The Black Demon"</li>
+                                <li>Age:16+</li>
+                                <li>Genre: thriller, horror</li>
+                                <li>Year:2023</li>
+                            </ul>
+                        </div>
+                    </th>
                 </tr>
                 <tr>
                     <th>
@@ -74,6 +85,17 @@ const Fresh = () => {
                             </ul>
                         </div>
                     </th>
+                    <th>
+                        <div className="card">
+                            <img src="./public/" alt="NONE" />
+                            <ul>
+                                <li>""</li>
+                                <li>Age:16+</li>
+                                <li>Genre: thriller, horror</li>
+                                <li>Year:2023</li>
+                            </ul>
+                        </div>
+                    </th>
                 </tr>
                 <tr>
                     <th>
@@ -105,6 +127,17 @@ const Fresh = () => {
                                 <li>"Guardians of the Galaxy"</li>
                                 <li>Age:16+</li>
                                 <li>Genre: action, comedy, fantasy</li>
+                                <li>Year:2023</li>
+                            </ul>
+                        </div>
+                    </th>
+                    <th>
+                        <div className="card">
+                            <img src="./public/" alt="NONE" />
+                            <ul>
+                                <li>""</li>
+                                <li>Age:16+</li>
+                                <li>Genre: thriller, horror</li>
                                 <li>Year:2023</li>
                             </ul>
                         </div>
