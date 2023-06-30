@@ -84,6 +84,7 @@
   transition: all 1s;
 }
 .Movies__Class:hover {
+  cursor: pointer;
   filter: blur(2.5px);
   transition: all 1s;
   height: 350px;
