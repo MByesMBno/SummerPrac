@@ -9,6 +9,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './index.css'
 import Fresh from './Fresh.jsx'
 import Footer from './Components/Footer.jsx'
+import Watch from './Watch.jsx'
 
 
 
@@ -22,8 +23,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route  path='/Fresh' element={<Fresh/>} />
         <Route  path='/Center' element={<Center/>} />
         <Route  path='/' element={<Center/>} />
+        <Route  path='/Videopl' element={<Watch/>} />
       </Routes>
-      <Footer/>     
+      <Footer/>    
     </BrowserRouter>
   </React.StrictMode>,
 )
