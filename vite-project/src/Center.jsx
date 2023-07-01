@@ -1,9 +1,13 @@
 import { useState } from 'react'
 import './Center.css'
+import { NavLink } from 'react-router-dom'
 
 function Center() {
   const [count, setCount] = useState(0)
-  const Click_Afisha = () => {
+  function Click_Afisha(number){
+    if(number==1){
+        window.location.href = "http://localhost:5173/Videopl"
+    }
   };
   return (
     <div className="Center1">
@@ -12,7 +16,7 @@ function Center() {
         <div className="Dop__Banner">
             <h1>ENCANTO</h1>
             <h3>CARTOONS, COMEDY</h3>
-            <button className="Button_Afisha">Watch</button>
+            <NavLink to="/Videopl"><button  className="Button_Afisha">Watch</button></NavLink>  
         </div>
         <div className="Top__Film">
             <p>This week's Top films</p>
@@ -20,22 +24,22 @@ function Center() {
                 <tr className='Margin__Setting'>
                     <th>
                         <div className="Movies__Class">
-                            <img className="Movies__Class2" src="./public/OneOne_A.png" alt="NONE" />
+                            <NavLink to="/Videopl"><button><img className="Movies__Class2" src="./public/OneOne_A.png" alt="NONE" /></button> </NavLink>  
                         </div>
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <img className="Movies__Class2" src="Sunnypek_A.png" alt="NONE" />
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="Sunnypek_A.png" alt="NONE" /> </NavLink>  
                         </div>
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <img className="Movies__Class2" src="./public/Avatar_A.png" alt="NONE" />
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="./public/Avatar_A.png" alt="NONE" /> </NavLink>  
                         </div>
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <img className="Movies__Class2" src="/Ralf.png" alt="NONE" />
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="/Ralf.png" alt="NONE" /> </NavLink>  
                         </div>
                     </th>
                 </tr>
@@ -43,22 +47,22 @@ function Center() {
                 <tr>
                     <th>
                         <div className="Movies__Class">
-                            <img className="Movies__Class2" src="/Ralf.png" alt="NONE" />
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="/Ralf.png" alt="NONE" /> </NavLink>  
                         </div>
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <img className="Movies__Class2" src="Sheep_A.png" alt="NONE" />
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="Sheep_A.png" alt="NONE" /> </NavLink>  
                         </div>
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <img className="Movies__Class2" src="Enkanto_A.png" alt="NONE" />
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="Enkanto_A.png" alt="NONE" /> </NavLink>  
                         </div>
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <img className="Movies__Class2" src="Enkanto_A.png" alt="NONE" />
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="Enkanto_A.png" alt="NONE" /> </NavLink>  
                         </div>
                     </th>
                 </tr>
@@ -70,9 +74,11 @@ function Center() {
 
 function ButtonWatch() {
     const [count, setCount] = useState(0)
-    
+    window.location.href = "http://localhost:5173/Videopl"
     return (
-      <div>HOT!!!!!!!!!!!!!</div>
+        <div>123</div>
     )
 }
 export default Center
+
+/* <button onClick={() => Click_Afisha(2)} */

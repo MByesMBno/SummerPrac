@@ -105,4 +105,10 @@
   width: 4px;
   height: 1000px;
   margin: 0;
+}
+
+.Top__Film button {
+  background: none;
+  border: none;
+  padding: 0;
 }/*# sourceMappingURL=Center.css.map */
