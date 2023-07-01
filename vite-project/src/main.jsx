@@ -10,6 +10,7 @@ import './index.css'
 import Fresh from './Fresh.jsx'
 import Footer from './Components/Footer.jsx'
 import Watch from './Watch.jsx'
+import Overlay from './FilmInfo/Overlay.jsx'
 
 
 
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route  path='/Center' element={<Center/>} />
         <Route  path='/' element={<Center/>} />
         <Route  path='/Videopl' element={<Watch/>} />
+        <Route  path='/FilmName' element={<Overlay/>} />
       </Routes>
       <Footer/>    
     </BrowserRouter>
