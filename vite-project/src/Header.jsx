@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHome, faRotateRight, faFire, faFaceSmile, faChild, faWandSparkles, faUser, faArrowRightFromBracket} from '@fortawesome/free-solid-svg-icons'
 import './Header.css'
-import { NavLink } from 'react-router-dom'
+
 
 function Header() {
   const [count, setCount] = useState(0)
