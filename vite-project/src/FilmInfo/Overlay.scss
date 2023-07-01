@@ -1,6 +1,41 @@
 .Overlay2{
     color: aliceblue;
     position: absolute;
-    top: 40px;
-    margin-left: 450px;
+    top: 240px;
+    margin-left: 400px;
+    justify-content: center;
+    text-align: center;
+}
+.InputBox__Name{
+    position: absolute;
+    top: 240px;
+    margin-left: 400px;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 400px;
+    font-size: 25px;
+    font-family: Dongle;
+    border-radius: 15px;
+    border-color: none;
+    box-shadow: none;
+}
+p{
+    color: azure;
+    font-size: 45px;
+    font-family: Dongle;
+    margin: 0px;
+    padding: 0px;
+}
+.InputBox__Name2{
+    position: absolute;
+    top: 290px;
+    margin-left: 400px;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 400px;
+    font-size: 25px;
+    font-family: Dongle;
+    border-radius: 15px;
 }
