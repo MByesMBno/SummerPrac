@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Watch.css'
 
-function Watch(filmid) {
+function Watch() {
   const [count, setCount] = useState(0)
   return ( 
     <div className="VideoPlayer">

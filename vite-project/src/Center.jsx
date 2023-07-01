@@ -39,7 +39,7 @@ function Center() {
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <NavLink to="/Videopl"><img className="Movies__Class2" src="/Ralf.png" alt="NONE" /> </NavLink>  
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="./public/Avatar_A.png" alt="NONE" /> </NavLink>  
                         </div>
                     </th>
                 </tr>
@@ -57,12 +57,12 @@ function Center() {
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <NavLink to="/Videopl"><img className="Movies__Class2" src="Enkanto_A.png" alt="NONE" /> </NavLink>  
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="Enkanto_A.png" alt="NONE" /></NavLink>  
                         </div>
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <NavLink to="/Videopl"><img className="Movies__Class2" src="Enkanto_A.png" alt="NONE" /> </NavLink>  
+                            <img className="Movies__Class2" src="Enkanto_A.png" alt="NONE" />
                         </div>
                     </th>
                 </tr>
