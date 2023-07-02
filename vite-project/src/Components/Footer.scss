@@ -14,30 +14,25 @@
             li{
                 list-style: none;
                 margin-left: 60px;
-                width: 15%;
+                width: 20%;
                 h3{
                     font-size: 18px;
                 }
-                ul{
-                    li{
-                        a{
-                            text-decoration: none;
-                            color: aqua;
-                        }
-                    }
+            }
+        }
+            .useful{
+                a{
+                    display: block;
+                    text-decoration: none;
+                    font-size: 18px;
+                    line-height: 2;
+                    color: rgb(0, 132, 255);
+                    transition: all 0.2s ease-out;
+                    &:hover{
+                        color: rgb(254, 179, 4);
                 }
             }
         }
-
-        .useful{
-            width:20%;
-            
-            li{
-                display: flex;
-                width:100px;
-                margin: 10px;
-                padding: 0;
-            }
-        }
+        
     }
 }

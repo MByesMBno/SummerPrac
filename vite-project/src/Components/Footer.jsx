@@ -30,15 +30,16 @@ const Footer = () => {
                     <li>
                         <div className="useful">
                             <h3>Useful materials</h3>
-                            <ul>
-                                <li><a href="http://www.surgu.ru/index">Site of our University</a></li>
-                                <li><a href="https://thebestschools.org/careers/career-guide/web-developer/">How to be a Web-Dev</a></li>
-                                <li><a href="https://react.dev">React-tech</a></li>
-                                <li><a href="https://sass-lang.com">Scss-tech</a></li>
-                            </ul>
+                            
+                                <a href="http://www.surgu.ru/index">Site of our University</a>
+                                <a href="https://thebestschools.org/careers/career-guide/web-developer/">How to be a Web-Dev</a>
+                                <a href="https://react.dev">React-tech</a>
+                                <a href="https://sass-lang.com">Scss-tech</a>
+                            
                         </div>
-                    </li>
-                </ul>
+                    </li>     
+                </ul>    
+                
             </div>
         </div>
     );

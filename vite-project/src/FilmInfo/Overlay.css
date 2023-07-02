@@ -22,7 +22,7 @@
   box-shadow: none;
 }
 
-p {
+.InputBox__Name p {
   color: azure;
   font-size: 45px;
   font-family: Dongle;

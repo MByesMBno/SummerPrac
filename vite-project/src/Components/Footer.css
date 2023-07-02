@@ -15,21 +15,19 @@
 .Footer .wrap ul li {
   list-style: none;
   margin-left: 60px;
-  width: 15%;
+  width: 20%;
 }
 .Footer .wrap ul li h3 {
   font-size: 18px;
 }
-.Footer .wrap ul li ul li a {
+.Footer .wrap .useful a {
+  display: block;
   text-decoration: none;
-  color: aqua;
+  font-size: 18px;
+  line-height: 2;
+  color: rgb(0, 132, 255);
+  transition: all 0.2s ease-out;
 }
-.Footer .wrap .useful {
-  width: 20%;
-}
-.Footer .wrap .useful li {
-  display: flex;
-  width: 100px;
-  margin: 10px;
-  padding: 0;
+.Footer .wrap .useful a:hover {
+  color: rgb(254, 179, 4);
 }/*# sourceMappingURL=Footer.css.map */
