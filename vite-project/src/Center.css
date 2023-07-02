@@ -2,8 +2,7 @@
   color: aquamarine;
   position: absolute;
   top: 40px;
-  right: 5px;
-  margin-right: 400px;
+  margin-left: 500px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -29,21 +28,18 @@
 .Center1 p {
   color: azure;
   font-size: 25px;
-  font-family: Dongle;
   margin: 0px;
   padding: 0px;
 }
 
 .Center1 h1 {
   color: azure;
-  font-family: Dongle;
   font-size: 55px;
   margin: 0;
 }
 
 .Center1 h3 {
   color: azure;
-  font-family: Dongle;
   font-size: 35px;
   margin: 0;
   position: relative;
@@ -56,7 +52,6 @@
   border-radius: 20px;
   background: #34FFE8;
   color: #373737;
-  font-family: Dongle;
   font-size: 35px;
   text-align: center;
   position: relative;
@@ -77,6 +72,10 @@
 .Top__Film {
   position: relative;
   top: -150px;
+}
+.Top__Film p {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .Movies__Class {

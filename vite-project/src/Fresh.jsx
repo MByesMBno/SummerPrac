@@ -39,17 +39,6 @@ const Fresh = () => {
                             </ul>
                         </div>
                     </th>
-                    <th>
-                        <div className="card">
-                            <img src="./public/" alt="NONE" />
-                            <ul>
-                                <li>"The Black Demon"</li>
-                                <li>Age:16+</li>
-                                <li>Genre: thriller, horror</li>
-                                <li>Year:2023</li>
-                            </ul>
-                        </div>
-                    </th>
                 </tr>
                 <tr>
                     <th>
@@ -81,17 +70,6 @@ const Fresh = () => {
                                 <li>"Operation Fortune"</li>
                                 <li>Age:18+</li>
                                 <li>Genre: action, comedy</li>
-                                <li>Year:2023</li>
-                            </ul>
-                        </div>
-                    </th>
-                    <th>
-                        <div className="card">
-                            <img src="./public/" alt="NONE" />
-                            <ul>
-                                <li>""</li>
-                                <li>Age:16+</li>
-                                <li>Genre: thriller, horror</li>
                                 <li>Year:2023</li>
                             </ul>
                         </div>
@@ -132,15 +110,6 @@ const Fresh = () => {
                         </div>
                     </th>
                     <th>
-                        <div className="card">
-                            <img src="./public/" alt="NONE" />
-                            <ul>
-                                <li>""</li>
-                                <li>Age:16+</li>
-                                <li>Genre: thriller, horror</li>
-                                <li>Year:2023</li>
-                            </ul>
-                        </div>
                     </th>
                 </tr>
             </table>
