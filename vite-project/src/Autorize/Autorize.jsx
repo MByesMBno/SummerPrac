@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import './Autorize.css'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import './Autorize.css';
+
 
 function Autorize() {
   return (
     <div className="Autorize">
-        <p>Add account</p>
-        <input className='InputBox__Name' name='Name' type="text"></input>
-        <input className='InputBox__Name2' name='password' type="text"></input>
+        <h1>Add account</h1>
+        <input  name='Name' type="text" placeholder='E-mail'></input>
+        <input  name='password' type="password" placeholder='Password'></input>
+        <button>Push me</button>
     </div>
   )
 }
