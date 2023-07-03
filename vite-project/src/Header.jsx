@@ -14,7 +14,7 @@ function Header() {
         <ul className='Menu'>
           <li><NavLink to="/Center"><FontAwesomeIcon icon={faHome}/></NavLink> Home </li>
           <li><NavLink to="/Fresh"><FontAwesomeIcon icon={faRotateRight}/></NavLink> Fresh Movies </li>
-          <li><NavLink to="#"><FontAwesomeIcon icon={faFire}/></NavLink> Trending Now </li>
+          <li><NavLink to="/Trending Now"><FontAwesomeIcon icon={faFire}/></NavLink> Trending Now </li>
         </ul>
         <p>Popular Genres</p>
         <ul className='Popular'>

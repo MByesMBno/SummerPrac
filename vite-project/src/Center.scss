@@ -4,7 +4,6 @@
     top: 40px;
     margin-left: 500px;
     transition: all 0.3s ease-in-out;
-
 }
 .Margin__Setting{
     margin: 0px;
@@ -23,7 +22,7 @@
     left: 95px;
 }
 .Center1 p{
-    color: azure;
+    color: azure;  
     font-size: 25px;
     margin: 0px;
     padding: 0px;
@@ -47,7 +46,6 @@
     border-radius: 20px;
     background: #34FFE8;
     color: #373737;
- 
     font-size: 35px;
     text-align: center;
     position: relative;
@@ -104,4 +102,12 @@
     background: none;
     border: none;
     padding: 0;
+}
+.Margin__Setting{
+    .Movies__Class{
+        
+        img{
+            padding: 0;
+        }
+    }
 }

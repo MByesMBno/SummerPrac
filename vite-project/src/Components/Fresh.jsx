@@ -80,7 +80,7 @@ const Fresh = () => {
                         <div className="card">
                             <img  src="./public/gove.jpg" alt="NONE" />
                             <ul>
-                                <li>"The Govenant"</li>
+                                <li>"The Covenant"</li>
                                 <li>Age:18+</li>
                                 <li>Genre: action, drama</li>
                                 <li>Year:2022</li>

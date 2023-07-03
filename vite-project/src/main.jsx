@@ -6,11 +6,12 @@ import Vl from './Vl.jsx'
 import Center from './Center.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './index.css'
-import Fresh from './Fresh.jsx'
+import Fresh from './Components/Fresh.jsx'
 import Footer from './Components/Footer.jsx'
 import Watch from './Watch.jsx'
 import Overlay from './FilmInfo/Overlay.jsx'
 import Autorize from './Autorize/Autorize.jsx'
+import Trend from './Components/Trend.jsx'
 
 
 
@@ -24,9 +25,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route  path='/Autorize' element={<Autorize/>} />  
         <Route  path='/Fresh' element={<Fresh/>} />
         <Route  path='/Center' element={<Center/>} />
-        <Route  path='/' element={<Center/>} />
+        <Route  path='/Trending Now' element={<Trend/>}/>
         <Route  path='/Videopl' element={<Watch/>} />
         <Route  path='/FilmName' element={<Overlay/>} />
+        <Route  path='/' element={<Center/>} />
       </Routes>
       <Footer/> 
     </BrowserRouter>
