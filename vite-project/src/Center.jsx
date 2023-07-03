@@ -39,7 +39,7 @@ function Center() {
                     </th>
                     <th>
                         <div className="Movies__Class">
-                            <NavLink to="/Videopl/4"><img className="Movies__Class2" src="./public/Avatar_A.png" alt="NONE" /> </NavLink>  
+                            <NavLink to="/Videopl/4"><img className="Movies__Class2" src="LVAD.png" alt="NONE" /> </NavLink>  
                         </div>
                     </th>
                 </tr>

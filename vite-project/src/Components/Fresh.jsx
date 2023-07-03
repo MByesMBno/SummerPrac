@@ -45,7 +45,7 @@ const Fresh = () => {
                 <tr>
                     <th>
                         <div className="card">
-                            <img  src="./public/jhon.jpg" alt="NONE" />
+                            <NavLink to="/Videopl/12"><img  src="./public/jhon.jpg" alt="NONE" /></NavLink>
                             <ul>
                                 <li>"Jhon Wick 4"</li>
                                 <li>Age:18+</li>
@@ -56,7 +56,7 @@ const Fresh = () => {
                     </th>
                     <th>
                         <div className="card">
-                            <img  src="./public/your.jpg" alt="NONE" />
+                            <NavLink to="/Videopl/13"><img  src="./public/your.jpg" alt="NONE" /></NavLink>
                             <ul>
                                 <li>"Your Place or Mine"</li>
                                 <li>Age:18+</li>
@@ -67,7 +67,7 @@ const Fresh = () => {
                     </th>
                     <th>
                         <div className="card">
-                            <img  src="./public/fort.jpg" alt="NONE" />
+                            <NavLink to="/Videopl/14"><img  src="./public/fort.jpg" alt="NONE" /></NavLink>
                             <ul>
                                 <li>"Operation Fortune"</li>
                                 <li>Age:18+</li>
@@ -80,7 +80,7 @@ const Fresh = () => {
                 <tr>
                     <th>
                         <div className="card">
-                            <img  src="./public/gove.jpg" alt="NONE" />
+                            <NavLink to="/Videopl/15"><img  src="./public/gove.jpg" alt="NONE" /></NavLink>
                             <ul>
                                 <li>"The Covenant"</li>
                                 <li>Age:18+</li>
@@ -91,7 +91,7 @@ const Fresh = () => {
                     </th>
                     <th>
                         <div className="card">
-                            <img  src="./public/disaster.jpg" alt="NONE" />
+                            <NavLink to="/Videopl/16"><img  src="./public/disaster.jpg" alt="NONE" /></NavLink>
                             <ul>
                                 <li>"My beautiful disaster"</li>
                                 <li>Age:18+</li>
@@ -102,7 +102,7 @@ const Fresh = () => {
                     </th>
                     <th>
                         <div className="card">
-                            <img  src="./public/guard.jpg" alt="NONE" />
+                            <NavLink to="/Videopl/17"><img  src="./public/guard.jpg" alt="NONE" /></NavLink>
                             <ul>
                                 <li>"Guardians of the Galaxy"</li>
                                 <li>Age:16+</li>
