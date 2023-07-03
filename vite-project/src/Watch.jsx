@@ -1,25 +1,29 @@
-import { useState } from 'react'
+import { useParams } from 'react-router-dom'
 import './Watch.css'
 
 function Watch() {
-  const [count, setCount] = useState(0)
+  const { id } = useParams()
+  const filmName = ["Encanto", "One plus one", "Blazing sun", "Avatar", "Avatar", "Ralf", "Sheep VS Wolves","Encanto","Encanto"]
+  const filmStatus = ["Cartons", "Drama, comedy, biography", "Action movie", "Fantasy", "Fantasy", "Cartons", "Cartons", "Cartons", "Cartons"]
+  const filmDate = [2021, 2011, 2021, 2009, 2009, 2012, 2016]
+  const filmMaker = ["USA", "France", "Russia", "NoName", "NoName", "USA", "Russia", "USA", "USA"]
   return ( 
     <div className="VideoPlayer">
-        <h1>Encanto | 2021</h1>
+        <h1>{filmName[id]}</h1>
         <video className='Videos' controls width="700" src="Encanto.mp4"></video>
         <h1>Encanto:</h1>
         <table>
             <tr>
                 <th>Category:</th>
-                <th>Cartoon</th>
+                <th>{filmStatus[id]}</th>
             </tr>
             <tr>
                 <th>Year of release:</th>
-                <th>2021</th>
+                <th>{filmDate[id]}</th>
             </tr>
             <tr>
                 <th>Producer:</th>
-                <th>USA</th>
+                <th>{filmMaker[id]}</th>
             </tr>
         </table>
         <h1>About the film:</h1>

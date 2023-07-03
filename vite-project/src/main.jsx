@@ -27,7 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route  path='/Fresh' element={<Fresh/>} />
         <Route  path='/Center' element={<Center/>} />
         <Route  path='/Trending Now' element={<Trend/>}/>
-        <Route  path='/Videopl' element={<Watch/>} />
+        <Route  path='/Videopl/:id' element={<Watch/>} />
         <Route  path='/FilmName' element={<Overlay/>} />
         <Route  path='/Authorization' element={<Autorize/>} />
         <Route  path='/Logout' element={<Logout/>} />
