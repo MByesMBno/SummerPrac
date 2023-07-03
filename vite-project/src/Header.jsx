@@ -18,9 +18,9 @@ function Header() {
         </ul>
         <p>Popular Genres</p>
         <ul className='Popular'>
-          <li><NavLink to="#"><FontAwesomeIcon icon={faFaceSmile}/></NavLink> Comedy </li>
-          <li><NavLink to="#"><FontAwesomeIcon icon={faChild}/></NavLink> Cartoons </li>
-          <li><NavLink to="#"><FontAwesomeIcon icon={faWandSparkles}/></NavLink> Fantasy </li>
+          <li><NavLink to="/Comedy"><FontAwesomeIcon icon={faFaceSmile}/></NavLink> Comedy </li>
+          <li><NavLink to="/Cartoons"><FontAwesomeIcon icon={faChild}/></NavLink> Cartoons </li>
+          <li><NavLink to="/Fantasy"><FontAwesomeIcon icon={faWandSparkles}/></NavLink> Fantasy </li>
         </ul>
         <p>General</p>
         <ul className='General'>

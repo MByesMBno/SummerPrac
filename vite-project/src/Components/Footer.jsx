@@ -19,12 +19,14 @@ const Footer = () => {
                             <h3>Contacts</h3>
                             <p><FontAwesomeIcon icon={faHouse} /> 650125, Russia, Surgut, st. Energetikov, 22/1</p>
                             <p><FontAwesomeIcon icon={faPhone} /> +79505107876</p>
+                            <p><FontAwesomeIcon icon={faPhone} /> +79124132952</p>
                         </div>
                     </li>
                     <li>
                         <div className="email">
                             <h3>E-mail</h3>
                             <p><FontAwesomeIcon icon={faEnvelope}/> kudinovpavel-1@rambler.ru</p>
+                            <p><FontAwesomeIcon icon={faEnvelope}/> evdokimov03ilya@gmail.com</p>
                         </div>
                     </li>
                     <li>
