@@ -1,5 +1,7 @@
 import React from 'react';
 import './Fresh.css';
+import { useParams } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Fresh = () => {
     return (
@@ -8,18 +10,18 @@ const Fresh = () => {
                 <tr>
                     <th>
                         <div className="card">
-                            <img src="./public/Mega.jpg" alt="NONE" />
+                            <NavLink to="/Videopl/9"><img src="./public/Mega.jpg" alt="NONE" /></NavLink>
                             <ul>
                                 <li>"The Black Demon"</li>
                                 <li>Age:16+</li>
-                                <li>Genre: thriller, horror</li>
+                                <li>Genre: Thriller, horror</li>
                                 <li>Year:2023</li>
                             </ul>
                         </div>
                     </th>
                     <th>
                         <div className="card">
-                            <img  src="./public/Murder.jpg" alt="NONE" />
+                            <NavLink to="/Videopl/10"><img  src="./public/Murder.jpg" alt="NONE" /></NavLink>
                             <ul>
                                 <li>"Murder Mystery 2"</li>
                                 <li>Age:16+</li>
@@ -30,7 +32,7 @@ const Fresh = () => {
                     </th>
                     <th>
                         <div className="card">
-                            <img src="./public/The Last Kingdom.jpg" alt="NONE" />
+                            <NavLink to="/Videopl/11"><img src="./public/The Last Kingdom.jpg" alt="NONE" /></NavLink>
                             <ul>
                                 <li>"The Last Kingdom"</li>
                                 <li>Age:18+</li>

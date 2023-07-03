@@ -3,15 +3,19 @@ import './Watch.css'
 
 function Watch() {
   const { id } = useParams()
-  const filmName = ["Encanto", "One plus one", "Blazing sun", "Avatar", "Avatar", "Ralf", "Sheep VS Wolves","Encanto","Encanto"]
-  const filmStatus = ["Cartons", "Drama, comedy, biography", "Action movie", "Fantasy", "Fantasy", "Cartons", "Cartons", "Cartons", "Cartons"]
-  const filmDate = [2021, 2011, 2021, 2009, 2009, 2012, 2016, 2021, 2021]
-  const filmMaker = ["USA", "France", "Russia", "NoName", "NoName", "USA", "Russia", "USA", "USA"]
+  const filmName = ["Encanto", "One plus one", "Blazing sun", "Avatar", "Avatar", "Ralf", "Sheep VS Wolves","Encanto","Encanto",
+    "The Black Demon", "Murder Mystery 2", "The Last Kingdom"]
+  const filmStatus = ["Cartons", "Drama, comedy, biography", "Action movie", "Fantasy", "Fantasy", "Cartons", "Cartons", "Cartons", "Cartons",
+    "thriller, horror", "Action, comedy", "Action, comedy"]
+  const filmDate = [2021, 2011, 2021, 2009, 2009, 2012, 2016, 2021, 2021, 
+    2023, 2023, 2023]
+  const filmMaker = ["USA", "France", "Russia", "USA", "Tilimilitramdiy", "USA", "Russia", "USA", "USA",
+    "Canada", "Brusel", "USA"]
   return ( 
     <div className="VideoPlayer">
         <h1>{filmName[id]}</h1>
         <video className='Videos' controls width="700" src="Encanto.mp4"></video>
-        <h1>Encanto:</h1>
+        <h1>{filmName[id]}:</h1>
         <table>
             <tr>
                 <th>Category:</th>
