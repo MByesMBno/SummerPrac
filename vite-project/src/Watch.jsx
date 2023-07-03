@@ -6,15 +6,19 @@ function Watch() {
   const filmName = ["Encanto", "One plus one", "Blazing sun", "Avatar", "Avatar", "Ralf", "Sheep VS Wolves","Encanto","Encanto",
     "The Black Demon", "Murder Mystery 2", "The Last Kingdom",
     "Jhon Wick 4", "Your Place or Mine", "Operation Fortune",
-    "The Covenant", "My beautiful disaster","Guardians of the Galaxy"]
+    "The Covenant", "My beautiful disaster","Guardians of the Galaxy",
+    "Spider-Man: Across the Spider-Verse",
+    "Silo(Serial)", "The witcher(serial)", "Guardians of the Galaxy"]
   const filmStatus = ["Cartons", "Drama, comedy, biography", "Action movie", "Fantasy", "Fantasy", "Cartons", "Cartons", "Cartons", "Cartons",
     "thriller, horror", "Action, comedy", "Action, comedy",
     "Action","Romantic", "Action, comedy", "Action, drama", "comedy, drama",
+    "Action, comedy, fantasy", "Drama, thriller, fantastic", "Romantic",
     "Action, comedy, fantasy"]
   const filmDate = [2021, 2011, 2021, 2009, 2009, 2012, 2016, 2021, 2021, 
-    2023, 2023, 2023, 2023, 2023, 2023, 2022, 2022, 2023]
+    2023, 2023, 2023, 2023, 2023, 2023, 2022, 2022, 2023, 2023, 2019, 2023]
   const filmMaker = ["USA", "France", "Russia", "USA", "Tilimilitramdiy", "USA", "Russia", "USA", "USA",
-    "Canada", "Brusel", "USA", "USA", "Germany", "USA", "USA", "USA", "World"]
+    "Canada", "Brusel", "USA", "USA", "Germany", "USA", "USA", "USA", "World",
+  "World","World","World"]
   return ( 
     <div className="VideoPlayer">
         <h1>{filmName[id]}</h1>
