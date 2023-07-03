@@ -5,7 +5,7 @@ function Watch() {
   const { id } = useParams()
   const filmName = ["Encanto", "One plus one", "Blazing sun", "Avatar", "Avatar", "Ralf", "Sheep VS Wolves","Encanto","Encanto"]
   const filmStatus = ["Cartons", "Drama, comedy, biography", "Action movie", "Fantasy", "Fantasy", "Cartons", "Cartons", "Cartons", "Cartons"]
-  const filmDate = [2021, 2011, 2021, 2009, 2009, 2012, 2016]
+  const filmDate = [2021, 2011, 2021, 2009, 2009, 2012, 2016, 2021, 2021]
   const filmMaker = ["USA", "France", "Russia", "NoName", "NoName", "USA", "Russia", "USA", "USA"]
   return ( 
     <div className="VideoPlayer">
