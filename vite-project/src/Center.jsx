@@ -24,7 +24,7 @@ function Center() {
                 <tr className='Margin__Setting'>
                     <th>
                         <div className="Movies__Class">
-                            <NavLink to="/Videopl"><button><img className="Movies__Class2" src="./public/OneOne_A.png" alt="NONE" /></button> </NavLink>
+                            <NavLink to="/Videopl"><img className="Movies__Class2" src="./public/OneOne_A.png" alt="NONE" /></NavLink>
                         </div>
                     </th>
                     <th>
