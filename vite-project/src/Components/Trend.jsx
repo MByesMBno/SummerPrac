@@ -77,6 +77,41 @@ const Trend = () => {
                     </div>
                 </th>
             </tr>
+            <tr>
+                <th>
+                    <div className="card">
+                        <img  src="./public/forss.jpg" alt="NONE" />
+                        <ul>
+                            <li>"Fast X"</li>
+                            <li>Age:12+</li>
+                            <li>Genre: action, criminal</li>
+                            <li>Year:2023</li>
+                        </ul>
+                    </div>
+                </th>
+                <th>
+                    <div className="card">
+                        <img  src="./public/bibl.jpg" alt="NONE" />
+                        <ul>
+                            <li>"Librarian"</li>
+                            <li>Age:18+</li>
+                            <li>Genre: fantasy, action, adventure</li>
+                            <li>Year:2023-now...(serial)</li>
+                        </ul>
+                    </div>
+                </th>
+                <th>
+                    <div className="card">
+                        <img  src="./public/ken.jpg" alt="NONE" />
+                        <ul>
+                            <li>"Barbie"</li>
+                            <li>Age:12+</li>
+                            <li>Genre: fantasy, drama, comedy, adventure</li>
+                            <li>Year:2023</li>
+                        </ul>
+                    </div>
+                </th>
+            </tr>
             
         </table>
     </div>
