@@ -14,6 +14,8 @@ import Overlay from './FilmInfo/Overlay.jsx'
 import Autorize from './Autorize/Autorize.jsx'
 import Trend from './Components/Trend.jsx'
 import Logout from './Autorize/Logout.jsx'
+import Cartoons from './Components/Cartoons.jsx'
+import Fantasy from './Components/Fantasy.jsx'
 
 
 
@@ -29,6 +31,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route  path='/Center' element={<Center/>} />
         <Route  path='/Trending Now' element={<Trend/>}/>
         <Route  path='/Comedy' element={<Comedy/>}/>
+        <Route  path='/Cartoons' element={<Cartoons/>}/>
+        <Route  path='/Fantasy' element={<Fantasy/>}/>
         <Route  path='/Videopl/:id' element={<Watch/>} />
         <Route  path='/FilmName' element={<Overlay/>} />
         <Route  path='/Authorization' element={<Autorize/>} />

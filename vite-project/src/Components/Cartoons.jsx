@@ -8,104 +8,104 @@ const Cartoons = () => {
             <tr>
                 <th>
                     <div className="card">
-                        <img src="./public/alone.jpg" alt="NONE" />
+                        <img src="./public/story.jpg" alt="NONE" />
                         <ul>
-                            <li>"Home Alone"</li>
+                            <li>"Toy Story"</li>
                             <li>Age:0+</li>
-                            <li>Genre: comedy, family </li>
-                            <li>Year:1990</li>
+                            <li>Genre: cartoon, comedy, family, fantasy </li>
+                            <li>Year:1995</li>
                         </ul>
                     </div>
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/gentle.jpg" alt="NONE" />
+                        <img  src="./public/tim.jpg" alt="NONE" />
                         <ul>
-                            <li>"Gentlemen of fortune"</li>
-                            <li>Age:6+</li>
-                            <li>Genre: comedy, drama, criminal, detective </li>
-                            <li>Year:1971</li>
-                        </ul>
-                    </div>
-                </th>
-                <th>
-                    <div className="card">
-                        <img src="./public/cruella.jpg" alt="NONE" />
-                        <ul>
-                            <li>"Cruella"</li>
+                            <li>"The Nightmare Before Christmas"</li>
                             <li>Age:12+</li>
-                            <li>Genre: comedy, drama, criminal </li>
-                            <li>Year:2021</li>
-                        </ul>
-                    </div>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <div className="card">
-                        <img  src="./public/mask.jpg" alt="NONE" />
-                        <ul>
-                            <li>"The Mask"</li>
-                            <li>Age:12+</li>
-                            <li>Genre: comedy, fantasy, criminal </li>
-                            <li>Year:1994</li>
+                            <li>Genre: cartoon, family, fantasy </li>
+                            <li>Year:1993</li>
                         </ul>
                     </div>
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/hang.jpg" alt="NONE" />
+                        <img src="./public/SP.jpg" alt="NONE" />
                         <ul>
-                            <li>"Hangover"</li>
-                            <li>Age:16+</li>
-                            <li>Genre: comedy</li>
-                            <li>Year:2009</li>
-                        </ul>
-                    </div>
-                </th>
-                <th>
-                    <div className="card">
-                        <img  src="./public/Spider.jpg" alt="NONE" />
-                        <ul>
-                            <li>"Spider-Man: Across the Spider-Verse"</li>
-                            <li>Age:12+</li>
-                            <li>Genre: cartoon, comedy, superheroes</li>
-                            <li>Year:2023</li>
-                        </ul>
-                    </div>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <div className="card">
-                        <img  src="./public/jmur.jpg" alt="NONE" />
-                        <ul>
-                            <li>"Zhmurki"</li>
-                            <li>Age:16+</li>
-                            <li>Genre: comedy, criminal</li>
-                            <li>Year:2005</li>
-                        </ul>
-                    </div>
-                </th>
-                <th>
-                    <div className="card">
-                        <img  src="./public/ted.jpg" alt="NONE" />
-                        <ul>
-                            <li>"Ted"</li>
+                            <li>"South Park"</li>
                             <li>Age:18+</li>
-                            <li>Genre: comedy</li>
-                            <li>Year:2012</li>
+                            <li>Genre: comedy, fantasy, cartoon</li>
+                            <li>Year:1999</li>
+                        </ul>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div className="card">
+                        <img  src="./public/shrek.jpg" alt="NONE" />
+                        <ul>
+                            <li>"Shrek"</li>
+                            <li>Age:12+</li>
+                            <li>Genre: comedy, fantasy, cartoon, family </li>
+                            <li>Year:2001</li>
                         </ul>
                     </div>
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/yes.jpg" alt="NONE" />
+                        <img  src="./public/Spirit.jpg" alt="NONE" />
                         <ul>
-                            <li>"YES Man"</li>
+                            <li>"Spirited Away"</li>
                             <li>Age:12+</li>
-                            <li>Genre: comedy</li>
-                            <li>Year:2008</li>
+                            <li>Genre: comedy, anime, cartoon, fantasy, family</li>
+                            <li>Year:2001</li>
+                        </ul>
+                    </div>
+                </th>
+                <th>
+                    <div className="card">
+                        <img  src="./public/mono.jpg" alt="NONE" />
+                        <ul>
+                            <li>"Princess Mononoke"</li>
+                            <li>Age:12+</li>
+                            <li>Genre: cartoon, anime, fantasy, drama, action</li>
+                            <li>Year:1997</li>
+                        </ul>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div className="card">
+                        <img  src="./public/inc.jpg" alt="NONE" />
+                        <ul>
+                            <li>"Monsters, inc"</li>
+                            <li>Age:0+</li>
+                            <li>Genre: cartoon, fantasy, family, comedy</li>
+                            <li>Year:2001</li>
+                        </ul>
+                    </div>
+                </th>
+                <th>
+                    <div className="card">
+                        <img  src="./public/ice.jpg" alt="NONE" />
+                        <ul>
+                            <li>"Ice Age"</li>
+                            <li>Age:0+</li>
+                            <li>Genre: cartoon, fantasy, family, comedy</li>
+                            <li>Year:2002</li>
+                        </ul>
+                    </div>
+                </th>
+                <th>
+                    <div className="card">
+                        <img  src="./public/notre.jpg" alt="NONE" />
+                        <ul>
+                            <li>"The Hunchback of Notre Dame"</li>
+                            <li>Age:+</li>
+                            <li>Genre: cartoon, drama, family</li>
+                            <li>Year:1996</li>
                         </ul>
                     </div>
                 </th>
