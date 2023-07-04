@@ -1,5 +1,6 @@
 import React from 'react';
 import './Fresh.css';
+import { NavLink } from 'react-router-dom'
 
 const Cartoons = () => {
     return (
@@ -8,7 +9,7 @@ const Cartoons = () => {
             <tr>
                 <th>
                     <div className="card">
-                        <img src="./public/got.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/42"><img src="./public/got.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Game of Thrones(serial)"</li>
                             <li>Age:18+</li>
@@ -19,7 +20,7 @@ const Cartoons = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/pirat.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/43"><img  src="./public/pirat.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Pirates of the Caribbean"</li>
                             <li>Age:12+</li>
@@ -30,7 +31,7 @@ const Cartoons = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img src="./public/harry.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/44"><img src="./public/harry.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Harry Potter and Philosopher's Stone"</li>
                             <li>Age:12+</li>
@@ -43,7 +44,7 @@ const Cartoons = () => {
             <tr>
                 <th>
                     <div className="card">
-                        <img  src="./public/lord.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/45"><img  src="./public/lord.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"The Lord of the Rings"</li>
                             <li>Age:12+</li>
@@ -54,7 +55,7 @@ const Cartoons = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/Hobb.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/46"><img  src="./public/Hobb.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Hobbit"</li>
                             <li>Age:6+</li>
@@ -65,7 +66,7 @@ const Cartoons = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/const.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/47"><img  src="./public/const.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Constantine"</li>
                             <li>Age:16+</li>
@@ -78,7 +79,7 @@ const Cartoons = () => {
             <tr>
                 <th>
                     <div className="card">
-                        <img  src="./public/super.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/48"><img  src="./public/super.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Supernatural"</li>
                             <li>Age:16+</li>
@@ -89,7 +90,7 @@ const Cartoons = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/witcher.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/49"><img  src="./public/witcher.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"The Witcher"</li>
                             <li>Age:18+</li>
@@ -100,7 +101,7 @@ const Cartoons = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/mal.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/50"><img  src="./public/mal.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Malificent"</li>
                             <li>Age:12+</li>

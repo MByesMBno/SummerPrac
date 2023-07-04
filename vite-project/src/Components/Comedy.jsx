@@ -1,5 +1,6 @@
 import React from 'react';
 import './Fresh.css';
+import { NavLink } from 'react-router-dom'
 
 const Trend = () => {
     return (
@@ -8,7 +9,7 @@ const Trend = () => {
             <tr>
                 <th>
                     <div className="card">
-                        <img src="./public/alone.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/24"><img src="./public/alone.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Home Alone"</li>
                             <li>Age:0+</li>
@@ -19,7 +20,7 @@ const Trend = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/gentle.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/25"><img  src="./public/gentle.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Gentlemen of fortune"</li>
                             <li>Age:6+</li>
@@ -30,7 +31,7 @@ const Trend = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img src="./public/cruella.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/26"><img src="./public/cruella.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Cruella"</li>
                             <li>Age:12+</li>
@@ -43,7 +44,7 @@ const Trend = () => {
             <tr>
                 <th>
                     <div className="card">
-                        <img  src="./public/mask.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/27"><img  src="./public/mask.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"The Mask"</li>
                             <li>Age:12+</li>
@@ -54,7 +55,7 @@ const Trend = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/hang.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/28"><img  src="./public/hang.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Hangover"</li>
                             <li>Age:16+</li>
@@ -65,7 +66,7 @@ const Trend = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/Spider.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/29"><img  src="./public/Spider.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Spider-Man: Across the Spider-Verse"</li>
                             <li>Age:12+</li>
@@ -78,7 +79,7 @@ const Trend = () => {
             <tr>
                 <th>
                     <div className="card">
-                        <img  src="./public/jmur.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/30"><img  src="./public/jmur.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Zhmurki"</li>
                             <li>Age:16+</li>
@@ -89,7 +90,7 @@ const Trend = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/ted.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/31"><img  src="./public/ted.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Ted"</li>
                             <li>Age:18+</li>
@@ -100,7 +101,7 @@ const Trend = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/yes.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/32"><img  src="./public/yes.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"YES Man"</li>
                             <li>Age:12+</li>

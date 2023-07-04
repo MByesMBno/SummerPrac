@@ -80,7 +80,7 @@ const Trend = () => {
             <tr>
                 <th>
                     <div className="card">
-                        <img  src="./public/forss.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/21"><img  src="./public/forss.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Fast X"</li>
                             <li>Age:12+</li>
@@ -91,7 +91,7 @@ const Trend = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/bibl.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/22"><img  src="./public/bibl.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Librarian"</li>
                             <li>Age:18+</li>
@@ -102,7 +102,7 @@ const Trend = () => {
                 </th>
                 <th>
                     <div className="card">
-                        <img  src="./public/ken.jpg" alt="NONE" />
+                        <NavLink to="/Videopl/23"><img  src="./public/ken.jpg" alt="NONE" /></NavLink>
                         <ul>
                             <li>"Barbie"</li>
                             <li>Age:12+</li>
